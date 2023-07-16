@@ -384,9 +384,15 @@ h2 {
       border-radius: 50%;
 
       &.swiper-button-next {
-        background-color: transparent;
         &::after {
           transform: rotate(180deg);
+        }
+      }
+
+      &.swiper-button-disabled {
+        background: none;
+        opacity: 1;
+        &::after {
           filter: brightness(0.5);
         }
       }

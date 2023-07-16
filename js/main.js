@@ -6,7 +6,7 @@ var swiper = new Swiper(".hero__swiper", {
   // },
   speed: 1000,
   slidersPerView: 1,
-  loop: true,
+  loop: false,
   direction: "vertical",
 
   // If we need pagination
