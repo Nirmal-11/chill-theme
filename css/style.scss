@@ -1010,7 +1010,8 @@ h2 {
           position: relative;
           font-size: 14px;
           color: rgb(79, 79, 79);
-          line-height: 2.17;
+          line-height: 1.1;
+          margin-bottom: 10px;
           transition: color 0.5s;
           &::before {
             content: "";
