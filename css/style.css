@@ -539,6 +539,7 @@ h2 {
 }
 .service--left .service__slider {
   padding-right: 0;
+  padding-left: 15px;
 }
 .service--left .swiper-pagination {
   right: 0 !important;
